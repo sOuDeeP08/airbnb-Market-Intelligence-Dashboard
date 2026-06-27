@@ -59,7 +59,7 @@ This end-to-end business intelligence project transforms raw Airbnb listings and
 ### Download Full Dataset
 | Source | Link |
 |---|---|
-| 🌐 Inside Airbnb (Original Source) | [insideairbnb.com/get-the-data](http://insideairbnb.com/get-the-data/) |
+| 🌐 Maven Analytics (Dataset Source) | [mavenanalytics.io/data-playground/airbnb-listings-reviews](https://mavenanalytics.io/data-playground/airbnb-listings-reviews) |
 
 ### Sample Files (included in this repo)
 | File | Rows | Description |
