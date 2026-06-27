@@ -115,7 +115,7 @@ airbnb-market-intelligence-dashboard/
 
 | Overview | Ratings & Market Share | Reviews & Trust |
 |---|---|---|
-| ![Overview](Screenshots/Overview.png) | ![Ratings](Screenshots/Ratings.png) | ![Reviews](Screenshots/Reviews.png) |
+| ![Overview](screenshots/Overview.png) | ![Ratings](screenshots/Ratings.png) | ![Reviews](screenshots/Reviews.png) |
 
 ---
 
