@@ -54,14 +54,26 @@ This end-to-end business intelligence project transforms raw Airbnb listings and
 
 ## 🗂️ Dataset
 
-| File | Description |
-|---|---|
-| `Listings.csv` | 2,79,712 Airbnb listings with pricing, room type, city, host info, ratings |
-| `Reviews.csv` | 5.37L+ reviews with listing ID, reviewer ID, and review date |
-| `Listings_data_dictionary.csv` | Column definitions for listings data |
-| `Reviews_data_dictionary.csv` | Column definitions for reviews data |
+> ⚠️ **Note:** The full dataset files exceed GitHub's 25MB upload limit and are not included in this repository.
 
-> **Source:** Inside Airbnb (publicly available dataset)
+### Download Full Dataset
+| Source | Link |
+|---|---|
+| 🌐 Inside Airbnb (Original Source) | [insideairbnb.com/get-the-data](http://insideairbnb.com/get-the-data/) |
+
+### Sample Files (included in this repo)
+| File | Rows | Description |
+|---|---|---|
+| `Dataset/Listings_sample.csv` | 1,000 | Sample of listings data — pricing, room type, city, host info, ratings |
+| `Dataset/Reviews_sample.csv` | 1,000 | Sample of reviews data — listing ID, reviewer ID, review date |
+| `Dataset/Listings_data_dictionary.csv` | — | Column definitions for listings data |
+| `Dataset/Reviews_data_dictionary.csv` | — | Column definitions for reviews data |
+
+### Full Dataset Stats
+| File | Records |
+|---|---|
+| Listings.csv | 2,79,712 listings |
+| Reviews.csv | 5,37,300+ reviews |
 
 ---
 
@@ -80,16 +92,16 @@ This end-to-end business intelligence project transforms raw Airbnb listings and
 ```
 airbnb-market-intelligence-dashboard/
 │
-├── 📂 Dataset/
-│   ├── Listings.csv
-│   ├── Reviews.csv
+├── 📂 datasets/
+│   ├── Listings_sample.csv
+│   ├── Reviews_sample.csv
 │   ├── Listings_data_dictionary.csv
 │   └── Reviews_data_dictionary.csv
 │
-├── 📂 Dashboard/
+├── 📂 dashboard/
 │   └── Airbnb_Performance_Dashboard.pbix
 │
-├── 📂 Screenshots/
+├── 📂 screenshots/
 │   ├── overview.png
 │   ├── ratings.png
 │   └── reviews.png
