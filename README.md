@@ -92,16 +92,16 @@ This end-to-end business intelligence project transforms raw Airbnb listings and
 ```
 airbnb-market-intelligence-dashboard/
 │
-├── 📂 datasets/
-│   ├── Listings_sample.csv
-│   ├── Reviews_sample.csv
+├── 📂 Dataset/
+│   ├── Listings.csv
+│   ├── Reviews.csv
 │   ├── Listings_data_dictionary.csv
 │   └── Reviews_data_dictionary.csv
 │
-├── 📂 dashboard/
+├── 📂 Dashboard/
 │   └── Airbnb_Performance_Dashboard.pbix
 │
-├── 📂 screenshots/
+├── 📂 Screenshots/
 │   ├── overview.png
 │   ├── ratings.png
 │   └── reviews.png
@@ -121,19 +121,25 @@ airbnb-market-intelligence-dashboard/
 
 ## 🚀 How to Open
 
-1. Clone or download this repository
-2. Open `Airbnb_Performance_Dashboard.pbix` in **Power BI Desktop**
-3. If prompted, update the data source path to your local `Dataset/` folder
-4. Refresh the data and explore the dashboard
+### 📥 Download the Dashboard
+> The `.pbix` file exceeds GitHub's upload limit. Download it directly from Google Drive:
+>
+> **[⬇️ Download Airbnb_Performance_Dashboard.pbix](https://drive.google.com/file/d/1PFkGhcxsdAkwE60kdSkyIRkAsipFQMO9/view?usp=drive_link)**
+
+### Steps
+1. Download the `.pbix` file from the link above
+2. Open it in **Power BI Desktop** (free to download from Microsoft)
+3. Download the sample dataset files from the `Dataset/` folder in this repo
+4. If prompted, update the data source path to your local dataset folder
+5. Refresh the data and explore the dashboard
 
 ---
 
 ## 👤 Author
 
 **Soudeep Mazumder**  
-📧 [your-email@example.com]  
-🔗 [LinkedIn Profile URL]  
-💼 [Portfolio URL]
+📧 [soudeepmazumder2004@gmail.com]  
+🔗 [https://www.linkedin.com/in/soudeep-mazumder-753a0324a/] 
 
 ---
 
